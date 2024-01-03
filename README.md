@@ -1,6 +1,6 @@
 # Dr. Sillystringz's Factory
 
-#### (Brief description of application)
+#### An MVC web app for managing engineers and machines at a factory.
 
 #### By Aidan Williams
 
@@ -11,6 +11,8 @@
 
 ## Description
 
+A web app where a factory owner can manage the factory's engineers and the machines they work on.
+
 ## Setup Instructions
 
 1. Clone this repo.
@@ -20,10 +22,10 @@
     
         `{
           "ConnectionStrings": {
-            "DefaultConnection": "Server=localhost;Port=3306;database=[YOUR-DATABASE-NAME];uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];"
+            "DefaultConnection": "Server=localhost;Port=3306;database=factory;uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];"
           }
         }`
-3. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory.
+3. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory ('Factory').
 4. Run `dotnet ef database update` in the command line.
 5. Run `dotnet run` in the command line.
 6. Visit https://localhost:5001/ in your web browser.
